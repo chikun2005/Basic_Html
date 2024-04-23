@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color:green;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+       
+        <h1>
+            welcome
+            <span style="color: brown; ">to our website </span>
+        </h1>
+        <form>
+             <div>
+                <label for="Username">username</label>
+                <input type="text"id=username>
+             </div>
+             <br>
+    
+             <div>
+                <label for="E-mail">E-mail:</label>
+                <input type="E- mail"id=E-mail
+                placeholder="enter E-mail"
+                required
+                >
+             
+             </div>
+             <br>
+     <div>
+        <label for="textarea">Message</label>
+        <textarea name=""id="textarea"cols="30"rows="21
+        "
+        placeholder="textarea"></textarea>
+     </div>
+     <input type="submit" value="submit">
+        </form>
+        <div>
+            <label for="Password">password</label>
+            <input type="password"id=password max="5">
+         </div>
+         <br>
+         <div>
+            <label for="Number">Subject</label>
+            <input type="Number"id="number" max="5" min="1"value="5">
+         </div>
+         <div>
+            <label for="gender">gender</label>
+            <input type="Radio" name="gender"value="music"/>male  
+            <input type="radio"name="gender"value="sports"/>female
+    
+    
+         </div>
+         <div>
+            <label for="hobbies">fav hobbies</label>
+            <input type="checkbox"name="interest"value="music"/>Music
+            <input type="checkbox"name="interest"value="sports"/>sports
+         </div>
+         <div>
+             <label for="country">fav country:</label>
+             <select name="country"id="country">
+                <option value="USA">USA</option>
+                <option value="canada">canada</option>
+                <option value="uk">UK</option>
+             </select>
+         </div>
+     
+         <div>
+            <label for="country">fav country:</label>
+            <input type="text"id="country"name="country" list="countries"/>
+           <datalist id="countries">
+            <option value="USA"></option>
+            <option value="canada"></option>
+            <option value="uk">uk</option>
+            <option value="Australia"></option>
+           </datalist>
+                
+            
+        </div>
+        <div>
+            <label for="file">select file</label>
+            <input type="file"name="fileupload">
+        </div>
+    <div>
+        <label for="range">Range</label>
+         <input type="range"name="volume"min="0"max="100"value="50">
+    
+    
+    </div>
+    <div>
+        <label for="birthday">birthday:</label>
+        <input type="date"name="birthday">
+    
+    </div>
+    <div>
+        <label for="appointment time">appointment time</label>
+        <input type="time"name="appointment time">
+    </div>
+    <div>
+        <label for="favorite color">favorite color</label>
+        <input type="color"name="favoritecolor">
+    </div>
+    <label for="website">website</label>
+    <input type="url"name="website"placeholder="ENTER YOUR URL"/>
+    
+    <div>
+        <div>
+            <label for="searchquery:">searchquery</label>
+            <input type="search"name="searchquarry"placeholder="search-----">
+        </div>
+    
+    </div>
+    </fieldset>
+</body>
+</html>
